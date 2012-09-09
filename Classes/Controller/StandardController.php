@@ -26,6 +26,10 @@ class StandardController extends \TYPO3\FLOW3\Mvc\Controller\ActionController {
 		));
 	}
 
+	public function otherControllerAction() {
+		//return 'Hello. This is "other" action of the Standard controller.';
+	}
+
 }
 
 ?>

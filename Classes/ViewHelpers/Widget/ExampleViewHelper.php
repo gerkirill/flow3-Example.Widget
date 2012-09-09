@@ -12,8 +12,9 @@ class ExampleViewHelper extends \TYPO3\Fluid\Core\Widget\AbstractWidgetViewHelpe
 	public function render($foo, $bar) {
 		//return "Hello, I am widget";
 		$response = $this->initiateSubRequest();
-		\TYPO3\FLOW3\var_dump($this->getWidgetConfiguration(), 'helper: widget parameters');
-		\TYPO3\FLOW3\var_dump($this->renderChildren(), 'helper: rendered content');
+		\TYPO3\FLOW3\var_dump($this->arguments, 'helper: $this->arguments');
+		\TYPO3\FLOW3\var_dump($this->getWidgetConfiguration(), 'helper: $this->getWidgetConfiguration()');
+		\TYPO3\FLOW3\var_dump($this->renderChildren(), 'helper: $this->renderChildren()');
 		return $response;
 	}
 }
