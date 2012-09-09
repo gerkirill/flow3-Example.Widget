@@ -2,6 +2,7 @@ flow3-Example.Widget
 ====================
 
 Simple showcase of custom widget creation.
+The documentation on this topic is located here http://flow3.typo3.org/documentation/guide/partiii/templating.html#writing-widgets
 
 Usage:
 1. Create "Example.Widget" folder under Packages/Application directory in your flow3 project.
